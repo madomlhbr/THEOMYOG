@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "theomyog/wsgi.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "theomyog/wsgi.py"
+    }
+  ]
+}

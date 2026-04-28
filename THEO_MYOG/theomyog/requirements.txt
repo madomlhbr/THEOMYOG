@@ -1,5 +1,5 @@
-asgiref==3.8.1
-Django==5.0.3
-sqlparse==0.4.4
-typing_extensions==4.10.0
-vercel-wsgi==0.0.4
+asgiref>=3.8.1
+Django>=5.0.3
+sqlparse>=0.4.4
+typing_extensions>=4.10.0
+vercel-wsgi>=0.0.4

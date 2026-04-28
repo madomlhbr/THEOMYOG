@@ -64,11 +64,11 @@ def landing_page(request):
         'project_tagline': 'An audit of the systems that move us. Journey through five critical bottlenecks...',
         'student_name': 'Amado D. Malhabour Jr. VII',
     }
-    return render(request, 'gospel/landing.html')
+    return render(request, 'gospel/landing.html', context)
 
 def station_detail(request, station_id):
     station = STATIONS_DATA.get(station_id)
     if not station:
-        return render(request, 'gospel/landing.html')
+        return render(request, 'gospel/landing.html', context)
     # Pass 'id': station_id so the template knows which number it is
     return render(request, 'gospel/station_detail.html', {'station': station, 'id': station_id})

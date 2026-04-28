@@ -1,2 +1,2 @@
-Django
-vercel-wsgi
+Django==5.0.3
+vercel-wsgi==0.0.4

@@ -4,7 +4,10 @@
     {
       "src": "theomyog/wsgi.py",
       "use": "@vercel/python",
-      "config": { "runtime": "python3.12" }
+      "config": { 
+        "runtime": "python3.12",
+        "installCommand": "pip install -r requirements.txt"
+      }
     }
   ],
   "routes": [

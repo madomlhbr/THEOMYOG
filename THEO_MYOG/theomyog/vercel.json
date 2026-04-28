@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "theomyog/theomyog/wsgi.py",
+      "src": "theomyog/wsgi.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "theomyog/theomyog/wsgi.py"
+      "dest": "theomyog/wsgi.py"
     }
   ]
 }
